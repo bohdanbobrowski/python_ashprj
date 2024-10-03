@@ -5,9 +5,9 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python_ashprj"
+name = "python_backup_tool"
 version = "1.0"
-description = "Attempt to understand Ashampoo Burning Stutio file format *.ashprj"
+description = "Python script that helps to burn files to multiple CD/DVD/BR files formats"
 readme = "README.md"
 requires-python = ">=3.0"
 keywords = ["Ashampoo", ""]
@@ -31,10 +31,10 @@ dev = [
 ]
 
 [project.scripts]
-ashprj_open = "ashprj.ashprj:main"
+python_backup_tool = "python_backup_tool.python_backup_tool:main"
 
 [tool.setuptools]
-packages = ["ashprj"]
+packages = ["python_backup_tool"]
 
 [tool.ruff.lint]
 select = ["E", "F", "UP", "B", "I"]
