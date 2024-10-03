@@ -20,6 +20,12 @@ I am currently testing various CD/DVD/BR burning files on this system - unfortun
 
 #### Free
 
+###### [BurnAware Free](https://www.burnaware.com)
+
+Advantages:
+- project is active, commercial version available and not overpriced
+- file format is based on XML: [burnaware_free.bafl](data%2Fburnaware_free.bafl)
+
 ###### [ImgBurn](https://www.imgburn.com)
 
 Advantages:
