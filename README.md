@@ -58,7 +58,7 @@ Disadvantages:
 - it mixes files between discs instead of splitting them alphabetically which makes it difficult to find a file on a disc
 - if something goes wrong during recording it is difficult to resume the process (I had this happen when recording the seventh CD out of ten)
 - the file is saved in binary format, I tried to understand its structure, but it's probably a waste of time and it would be better to write something for CyberLink or another program:
-![ashprj_in_hex_editor.png](ashprj_in_hex_editor.png)
+![ashprj_in_hex_editor.png](assets%2Fashprj_in_hex_editor.png)
 
 ###### Cyberlink Power2GO 8
 
