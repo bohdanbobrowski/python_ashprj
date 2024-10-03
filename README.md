@@ -34,6 +34,15 @@ Advantages:
 Disadvantages
 - project seems to be abandoned ([2.5.8.0 was release in June on 2013](https://www.imgburn.com/index.php?act=changelog))
 
+###### [CdburnerXP](https://cdburnerxp.se/)
+
+Advantages:
+- it has [command line version called cdbxpcmd.exe](https://www.cdburnerxp.se/help/Appendices/commandlinearguments)
+- file format is based on XML: [cdburnderxp.dxp](data%2Fcdburnderxp.dxp)
+
+Disadvantages
+- project seems to be abandoned ([last version is 4.5.8.7128 and according to wikipedia it was published in November 2019](https://en.wikipedia.org/wiki/CDBurnerXP))
+ 
 #### Commercial
 
 As far as I know, none of the free programs for Windows allow you to split data onto multiple discs the way I would expect. Of all the commercial products, I had the opportunity to try two:
