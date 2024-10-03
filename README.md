@@ -14,28 +14,25 @@ In the past [I used a simple script that I wrote years ago in php](https://githu
 
 I want to write a similar script in python that will split my data into project files and allow me to record them on Windows.
 
-### Comparison of different programs for Windows
+### Comparison of different programs and their file types for Windows
 
 I am currently testing various CD/DVD/BR burning files on this system - unfortunately K3B does not work on this system - and unfortunately I still cannot find a suitable alternative.
 
-As far as I know, none of the free programs for Windows allow you to split data onto multiple discs the way I would expect. Of all the commercial products, I had the opportunity to try two:
+#### Free
 
-1. Cyberlink Power2GO 8 - because it was included with my burner.
-
-2. Ashampoo Burning Studio 25 - because the license cost only $10.
-
-#### Cyberlink Power2GO 8
+###### [ImgBurn](https://www.imgburn.com)
 
 Advantages:
-- it's free
-- file format is based on XML
+- file format looks simple: [imgburn_test_1.ibb](data%2Fimgburn_test_1.ibb)
 
-Disadvantages:
-- version i've got is bit old (2015)
-- it does not support splitting data between disks by default
-- UI does not support HDPI!
+Disadvantages
+- project seems to be abandoned ([2.5.8.0 was release in June on 2013](https://www.imgburn.com/index.php?act=changelog))
 
-#### Ashampoo Burning Studio 25
+#### Commercial
+
+As far as I know, none of the free programs for Windows allow you to split data onto multiple discs the way I would expect. Of all the commercial products, I had the opportunity to try two:
+
+###### Ashampoo Burning Studio 25
 
 Advantages:
 - the license is probably the cheapest
@@ -46,3 +43,15 @@ Disadvantages:
 - if something goes wrong during recording it is difficult to resume the process (I had this happen when recording the seventh CD out of ten)
 - the file is saved in binary format, I tried to understand its structure, but it's probably a waste of time and it would be better to write something for CyberLink or another program:
 ![ashprj_in_hex_editor.png](ashprj_in_hex_editor.png)
+
+###### Cyberlink Power2GO 8
+
+Advantages:
+- it's was added to my BR recorded
+- file format is based on XML
+
+Disadvantages:
+- version i've got is bit old (2015)
+- it does not support splitting data between disks by default
+- UI does not support HDPI!
+
